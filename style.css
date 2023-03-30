@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Metropolis-Regular";
+    src: url(fonts/Metropolis-Regular.otf) format('opentype');
+}
+
+body {
+    background-color: #e23744;
+    color: #f4f4f2;
+    font-family: Metropolis-Regular,sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mainimage {
+    background: #f4f4f2;
+    width: 550px;
+    align-items:center;
+    margin-left: 470px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.peter {
+    width: 550px;
+    border-radius: 25px;
+}
+
+.image1 {
+    background: #f4f4f2;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    float: left;
+}
+
+.biryani {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.image1 .biryani:hover {
+    transform: scale(1.3);
+    transition: all ease;
+}
+
+.image2 {
+    background: #f4f4f2;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.jamun {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image2 .jamun:hover {
+    transform: scale(1.3);
+    transition: all ease;
+}
+
+.image3 {
+    background: #f4f4f2;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 50%;
+    float: left;
+}
+
+.lassi {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image3 .lassi:hover {
+    transform: scale(1.3);
+    transition: all ease;
+}
+
+.titles {
+    clear: both;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+
+.cbtext {
+    float: left;
+    margin-left: 310px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.gjtext {
+    float: left;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mltext {
+    float: left;
+    margin-left: 210px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
